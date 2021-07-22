@@ -12,7 +12,7 @@ function Portal(){
 
   //helper functions
   const toggleLoginSignup = () => {setShowLogin(!showLogin)}
-  const submitForm = () => console.log('Form is sent!\nusername: ${username}\npassword: ${password}')
+  const submitForm = () => {console.log('Form is sent!\nusername: ${username}\npassword: ${password}')}
   
 
   //render

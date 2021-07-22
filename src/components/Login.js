@@ -13,7 +13,7 @@ function Login({username,setUsername,setPassword,toggle,submitForm}) {
         <input type="password" onChange={(e)=>{setPassword(e.target.value)}}></input>
         
 
-        <a onclick={toggle }> Don't have an account?</a>
+        <a onclick={toggle}> Don't have an account?</a>
         <button type="button" onClick={submitForm}>Login</button>
       
       </form>

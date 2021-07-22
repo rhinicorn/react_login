@@ -8,7 +8,7 @@ function Signup({username, password, setPassword, setUsername, toggle, submitFor
 
   //helper function
   const confirmAndSend =() => {
-    if (password==confirmPassword){
+    if (password===confirmPassword){
       submitForm()
     }else{
       setFailMessage("The passwords do not match")
